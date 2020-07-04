@@ -4,7 +4,7 @@ title: Polymorphic Shellcodes- SLAE32 Sixth Exam Assignment
 date: 2020-7-04
 classes: wide
 header:
-  teaser: /assets/images/polymorph.jpg
+  teaser: /images/polymorph.jpg
 tags:
   -SLAE
 --- 
