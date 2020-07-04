@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Polymorphic Shellcodes- SLAE32 Sixth Exam Assignment
+title: polymorphic
 date: 2020-7-04
 classes: wide
 header:
