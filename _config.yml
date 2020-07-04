@@ -152,6 +152,8 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Tryhackme"
+    url: "https://tryhackme.com/badge/103672"
 
 
 # Reading Files
