@@ -1,8 +1,14 @@
+
 ---
-layout: page
+layout: single
 title: Metasploit Shellcode Analysis - SLAE32 Fifth Exam Assignment
-permalink: /metasploit_analysis/
----
+date: 2020-7-03
+classes: wide
+header:
+  teaser: /images/metasploit.jpg
+tags:
+  -SLAE
+--- 
 
 ## Introduction
 Hello Everyone!
