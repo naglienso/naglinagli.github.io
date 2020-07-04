@@ -1,4 +1,3 @@
-
 ---
 layout: single
 title: Metasploit Shellcode Analysis - SLAE32 Fifth Exam Assignment
@@ -7,6 +6,7 @@ classes: wide
 header:
   teaser: /images/metasploit.jpg
 tags:
+
   -SLAE
 --- 
 
