@@ -97,7 +97,7 @@ author:
   avatar           : "/images/profile.jpeg"
   bio              : "B.Sc Computer Science Student | SLAE32 | BugBounty | CTF"
   location         : "IL"
-  email            :
+  email            : galnagli@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
