@@ -1,8 +1,14 @@
 ---
-layout: page
+layout: single
 title: No-Rate and Input limitations on password reset page chained into Denial Of Service attack on one of US Dept of Defense website.
-permalink: /DODOS/
----
+date: 2020-5-27
+classes: wide
+header:
+  teaser: /images/firstbug.jpg
+tags:
+
+  -BugBounty
+--- 
 
 Hello everyone, in this blog post i will share my first disclosed bug, which was found on US Dept of Defense Bug Bounty program.
 
