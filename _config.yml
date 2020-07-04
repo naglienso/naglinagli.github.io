@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "NagliNagli InfoSec Blog SLAE32 "|" BugBounty"
+title                    : "NagliNagli InfoSec Blog SLAE32 | BugBounty"
 title_separator          : "-"
 name                     : "Gal Nagli"
 description              : "Information Security Bug Bounty and CTF's"
