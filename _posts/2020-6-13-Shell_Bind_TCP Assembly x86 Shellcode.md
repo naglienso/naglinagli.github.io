@@ -1,8 +1,14 @@
 ---
-layout: page
+layout: single
 title: TCP Bind Shell Assembly x86 Shellcode - SLAE32 First Exam Assignment
-permalink: /shellbind/
----
+date: 2020-6-13
+classes: wide
+header:
+  teaser: /images/bindshellmeme.jpg
+tags:
+
+  -SLAE
+--- 
 
 ## Introduction
 Hello Everyone!
