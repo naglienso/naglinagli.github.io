@@ -82,6 +82,8 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
+linkedin:
+  username               : galnagli
 twitter:
   username               :
 facebook:
@@ -130,9 +132,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-       url: "https://www.linkedin.com/in/galnagli/"
+      
 # Site Footer
 footer:
   links:
