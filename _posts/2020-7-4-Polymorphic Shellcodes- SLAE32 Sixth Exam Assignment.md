@@ -1,8 +1,13 @@
 ---
-layout: page
+layout: single
 title: Polymorphic Shellcodes- SLAE32 Sixth Exam Assignment
-permalink: /polymorphic/
----
+date: 2020-4-07
+classes: wide
+header:
+  teaser: /assets/images/polymorph.jpg
+tags:
+  -SLAE
+--- 
 
 ## Introduction
 Hello Everyone!
