@@ -1,8 +1,14 @@
 ---
-layout: page
+layout: single
 title: Reverse TCP Shell Assembly x86 Shellcode - SLAE32 Second Exam Assignment
-permalink: /reverseshell/
----
+date: 2020-6-19
+classes: wide
+header:
+  teaser: /images/reverseshell.jpg
+tags:
+
+  -SLAE
+--- 
 
 ## Introduction
 Hello Everyone!
