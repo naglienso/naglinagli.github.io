@@ -1,8 +1,14 @@
 ---
-layout: page
+layout: single
 title: ROT-13 Shellcode encoder - SLAE32 Fourth Exam Assignment
-permalink: /encoder/
----
+date: 2020-7-02
+classes: wide
+header:
+  teaser: /images/encoder.jpg
+tags:
+
+  -SLAE
+--- 
 
 ## Introduction
 Hello Everyone!
