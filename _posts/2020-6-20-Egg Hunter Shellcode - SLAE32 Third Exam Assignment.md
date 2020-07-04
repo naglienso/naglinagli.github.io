@@ -1,8 +1,14 @@
 ---
-layout: page
+layout: single
 title: EGG Hunter Shellcode - SLAE32 Third Exam Assignment 
-permalink: /egghunter/
----
+date: 2020-6-20
+classes: wide
+header:
+  teaser: /images/egg.jpg
+tags:
+
+  -SLAE
+--- 
 
 ## Introduction
 Hello Everyone!
