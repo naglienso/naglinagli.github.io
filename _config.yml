@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "NagliNagli"
+title                    : "NagliNagli InfoSec Blog SLAE32 "|" BugBounty"
 title_separator          : "-"
 name                     : "Gal Nagli"
 description              : "Information Security Bug Bounty and CTF's"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Gal Nagli"
   avatar           : "/images/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "B.Sc Computer Science Student | SLAE32 | BugBounty | CTF's"
+  bio              : "B.Sc Computer Science Student"
   location         : "IL"
   email            :
   links:
