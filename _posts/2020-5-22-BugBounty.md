@@ -1,9 +1,14 @@
 ---
-layout: page
-title: Web Application Hacker's Handbook 2
-permalink: /BugBounty/
----
+layout: single
+title: My Modern interpretation of The Web Application Hackers Handbook
+date: 2020-5-27
+classes: wide
+header:
+  teaser: /images/TOOLONG.jpg
+tags:
 
+  -BugBounty
+--- 
 **Based on The Web Application Hackers Handbook2 and modern toolset**
 
 ![MeMe](/images/TOOLONG.jpg)
