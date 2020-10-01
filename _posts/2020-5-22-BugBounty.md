@@ -367,6 +367,3 @@ ffuf -w /path/to/wordlist -u https://target/FUZZ -maxtime-job 60 -recursion -rec
 1. The Web Application Hackers Handbook 2 - <https://www.oreilly.com/library/view/the-web-application/9781118026472/>
 
 
-## Contact me
-
-[galnagli@gmail.com](mailto:galnagli@gmail.com)
