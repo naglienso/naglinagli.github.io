@@ -10,9 +10,9 @@ tags:
   -BugBounty
 --- 
 
-**Based on The Web Application Hackers Handbook2 and modern toolset**
+**CaptailOne attack - SSRF due to WAF Misconfiguration to PII leakage of 100M customers.**
 
-![MeMe](/images/TOOLONG.jpg)
+![preview](/images/logo_capitalone.jpg)
 
 ## Introduction
 
