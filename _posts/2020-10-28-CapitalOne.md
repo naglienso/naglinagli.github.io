@@ -31,8 +31,6 @@ As we can infer from the official statement, the impact has been significant and
 
 ### Digging to the technical prespective
 
-<https://krebsonsecurity.com/tag/capital-one-breach/>
-
 ![digging](/images/digging.jpg)
 
 As we can infer from the first lines, it was deemed at first a "Mystery" the form of which the attack had occurred, some speculating zero-days being involed and a thought of it being an inside job.
@@ -106,6 +104,8 @@ s3_capital_one_breach.get_object( Bucket=’capitalone-bucket’, Key=’/tmp/�
  ```
  
  ## How could the attack be detected
+ 
+ ![detection](/images/detection.jpg)
  
  - Monitoring / investigating suspicious and continious connections from TOR exit-nodes and known VPN providers, by implementing a rule to detect and alert when a specific malicious subnet is accessing the servers on different times and trying to find generic OWASP top 10 vulnerabilities (such as SSRF)
  
