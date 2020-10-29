@@ -107,15 +107,15 @@ s3_capital_one_breach.get_object( Bucket=’capitalone-bucket’, Key=’/tmp/�
  
  ## How could the attack be detected
  
- -[v] Monitoring / investigating suspicious and continious connections from TOR exit-nodes and known VPN providers, by implementing a rule to detect and alert when a specific malicious subnet is accessing the servers on different times and trying to find generic OWASP top 10 vulnerabilities (such as SSRF)
+ - [v] Monitoring / investigating suspicious and continious connections from TOR exit-nodes and known VPN providers, by implementing a rule to detect and alert when a specific malicious subnet is accessing the servers on different times and trying to find generic OWASP top 10 vulnerabilities (such as SSRF)
  
- -[v] When the AWS buckets instances were accessed from an ip address which didn't reach it before (the VPN ones by erratic) there should have been an alert or a sign of suspicion by Amazon being sent to Capitalone indicating a new unknown ip address is getting in touch with the data presnted on the their private AWS cloud.
+ - [v] When the AWS buckets instances were accessed from an ip address which didn't reach it before (the VPN ones by erratic) there should have been an alert or a sign of suspicion by Amazon being sent to Capitalone indicating a new unknown ip address is getting in touch with the data presnted on the their private AWS cloud.
  
- -[v] AWS should prompt an alert to the customer when he sets up 3rd party application with what seems to be over permissive premissions on the instance, which could mitigate the attack the smaller number of buckets, or even better not allowing erratic the ability to read the buckets data.
+ - [v] AWS should prompt an alert to the customer when he sets up 3rd party application with what seems to be over permissive premissions on the instance, which could mitigate the attack the smaller number of buckets, or even better not allowing erratic the ability to read the buckets data.
  
- -[v] CapitalOne should have been going through their 3rd party programs and making sure they are being configured with the right settings (regarding the WAF misconfiguration), by making Black Box engagements before going live with a new product.
+ - [v] CapitalOne should have been going through their 3rd party programs and making sure they are being configured with the right settings (regarding the WAF misconfiguration), by making Black Box engagements before going live with a new product.
 
--[v] Deploying OSINT searches by AWS security center or CapitalOne incident response team once in a while could have gotten them to erratic twitter posts / slack group which would have provided indications of an attack being initiated in early stages by her.
+- [v] Deploying OSINT searches by AWS security center or CapitalOne incident response team once in a while could have gotten them to erratic twitter posts / slack group which would have provided indications of an attack being initiated in early stages by her.
  
 
 ![thanks](/images/thanks.jpg)
