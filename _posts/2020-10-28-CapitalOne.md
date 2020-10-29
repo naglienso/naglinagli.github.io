@@ -1,6 +1,6 @@
 ---
 layout: single
-title: CapitalOne Data Breach - SSRF due to WAF Misconfiguration to PII leakage of 100M customers.
+title: CapitalOne Data Breach - SSRF due to WAF Misconfiguration leads to PII leakage of 100M customers.
 date: 2020-10-27
 classes: wide
 header:
@@ -10,7 +10,7 @@ tags:
   -BugBounty
 --- 
 
-**CapitalOne Data Breach - SSRF due to WAF Misconfiguration to PII leakage of 100M customers.**
+**CapitalOne Data Breach - SSRF due to WAF Misconfiguration leads to PII leakage of 100M customers.**
 
 ![preview](/images/logo_capitalone.jpg)
 
