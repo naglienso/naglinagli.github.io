@@ -31,7 +31,7 @@ The impact that has been stated on the offical statement is detailed on the imag
 
 As we can infer from the official statement, the impact has been significant and critical to the company, yet no technical explaination or PoC of the attack has been provided from offical source of CapitalOne.
 
-### Digging to the technical prespective - KrebsOnSecurity
+### Digging to the technical prespective
 
 <https://krebsonsecurity.com/tag/capital-one-breach/>
 
@@ -64,8 +64,48 @@ When the attacker managed to utilize the SSRF into the WAF instance metadata, sh
 The WAF which had been used and had been compormised is the ModSecurity, is an open-source web application firewall (WAF). 
 Originally designed as a module for the Apache HTTP Server.
 
+erratic was arrested on July 29th with allegedly 30GB of credit application data from Capitalone AWS instances.
 
+The attack was first discovered on July 17th by CapitalOne from a responsible disclosure letter which had been sent to the company, indicating that there is leaked s3 data of the company inside a Github repository which belonged to the user "Netcrave" and had been found associated with a resume and the name of Paige A. Thompson.
 
+![repsonsible_disclosure](/images/responsible.png)
+
+On the github repo it wasn't clearly stated from which cloud instance the information had been dumped, although learning from Paige C.V <https://gitlab.com/netcrave/Resume/blob/master/cv/experience.tex>, it had been found out that she had worked on Amazon Inc.
+
+later on, by using her handle "erratic" on twitter, it had been found out that she had posted publicly about accessing and dumping huge amount of data from companies by accessing their s3 buckets.
+
+![tweets](/images/tweets.png)
+
+While CapitalOne examined the files on the github repo, they found within the "April 21 file" that it contained the IP address for the specific WAF server.
+
+It had been found out that the connection from erratic to the CapitalOne infstrucature had been done by VPN connection from the 46.246 subnet (IPredator) and from TOR connections, limiting or creating an alert for suspicious and continuos activity from VPN and TOR identified IP addresses could have alerted CapitalOne that there might be something fishy going on.
+
+![evidence](/images/evidence.png)
+
+The PoC of reaching the EC2 credentials looked like:
+GET /?caponeurl=http://169.254.169.254/latest/meta-data/ HTTP/1.1
+Host: redacted.captialone.com
+
+The premissions:
+```javascript
+- Effect: Allow
+ Action:
+ - s3:GetObject
+ - s3:ListBucket
+ Resource: <*/Capitalone s3 bucket resources>
+ ```
+ 
+ Executing the following on the 700 buckets:
+ ```javascript
+ s3_capital_one_breach = boto3.client(
+ ‘s3’,
+ aws_access_key_id=access_key,
+ aws_secret_access_key=secret_key,
+ aws_session_token=session_token )
+resource = boto3.resource(‘s3’)
+s3_capital_one_breach.get_object( Bucket=’capitalone-bucket’, Key=’/tmp/’,
+‘[axed].snappy.parquet’ )
+ ```
 # Thanks for Reading!
 
 ## References
