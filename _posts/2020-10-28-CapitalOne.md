@@ -1,6 +1,6 @@
 ---
 layout: single
-title: CaptailOne Data Breach - SSRF due to WAF Misconfiguration to PII leakage of 100M customers.
+title: CapitalOne Data Breach - SSRF due to WAF Misconfiguration to PII leakage of 100M customers.
 date: 2020-10-27
 classes: wide
 header:
@@ -10,7 +10,7 @@ tags:
   -BugBounty
 --- 
 
-**CaptailOne Data Breach - SSRF due to WAF Misconfiguration to PII leakage of 100M customers.**
+**CapitalOne Data Breach - SSRF due to WAF Misconfiguration to PII leakage of 100M customers.**
 
 ![preview](/images/logo_capitalone.jpg)
 
@@ -53,23 +53,16 @@ In more simple words, SSRF vulnerability on a web server gives a malicious actor
 
 There are two main types of SSRF,
 - [ ] Blind SSRF (the response is not being shown to the malicious actor) which could lead to attacks such as internal port scanning
-- [ ] Ful SSRF - when the response initiated by the server is being sent back to the malicious actor, which gives the ability to access internal assets data.
+- [ ] Full SSRF - when the response initiated by the server is being sent back to the malicious actor, which gives the ability to access internal assets data.
 
-This being said, utilizing SSRF attack on a componet which is being hosted on AWS could be proved to be far more critical vulnerability, this is due to the "Magic IP" - 169.254.169.254 which is being issued internally by AWS, and holds the instance metadata 
+This being said, utilizing SSRF attack on a componet which is being hosted on AWS could be proved to be far more critical vulnerability, this is due to the "Magic IP" - 169.254.169.254 which is being issued internally by AWS, and holds the instance metadata.
 
-## Miscellaneous Checks
+![aws_ssrf](/images/amazon_ssrf.jpeg)
 
-![Checks](/images/Checks.png)
+When the attacker managed to utilize the SSRF into the WAF instance metadata, she grabbed the credentials to the cloud, utilized the over-premissive premissions of the WAF on the AWS to dump the PII information from their cloud data to the malicious actor VPS.
 
-### Check for DOM-Based Attacks
 
-### Check for Local Privacy Vulnerabilities
 
-### Check for Weak SSL Ciphers
-
-### Check Same-Origin Policy Confi guration
-
-## Follow Up Any Information Leakage
 
 # Thanks for Reading!
 
