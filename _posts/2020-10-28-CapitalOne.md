@@ -61,6 +61,8 @@ This being said, utilizing SSRF attack on a componet which is being hosted on AW
 
 When the attacker managed to utilize the SSRF into the WAF instance metadata, she grabbed the credentials to the cloud, utilized the over-premissive premissions of the WAF on the AWS to dump the PII information from their cloud data to the malicious actor VPS.
 
+The WAF which had been used and had been compormised is the ModSecurity, is an open-source web application firewall (WAF). 
+Originally designed as a module for the Apache HTTP Server.
 
 
 
