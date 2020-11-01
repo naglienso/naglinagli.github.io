@@ -106,7 +106,7 @@ s3_capital_one_breach.get_object( Bucket=’capitalone-bucket’, Key=’/tmp/�
 ‘[axed].snappy.parquet’ )
  ```
  
- ## How could the attack be detected
+ ### How could the attack be detected
  
  ![detection](/images/detection.jpg)
  
