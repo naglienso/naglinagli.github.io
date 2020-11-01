@@ -127,5 +127,6 @@ s3_capital_one_breach.get_object( Bucket=’capitalone-bucket’, Key=’/tmp/�
 1. <https://www.capitalone.com/facts2019/>
 2. <https://krebsonsecurity.com/tag/capital-one-breach/>
 3. <https://www.justice.gov/usao-wdwa/press-release/file/1198481/download>
-4. <https://www.securonix.com/web/wp-content/uploads/2019/08/Securonix_Threat_Research_Capital_One_Cyberattack.pdf>
-5. <https://portswigger.net/web-security/ssrf>
+4. <https://www.justice.gov/usao-wdwa/press-release/file/1188626/download>
+5. <https://www.securonix.com/web/wp-content/uploads/2019/08/Securonix_Threat_Research_Capital_One_Cyberattack.pdf>
+6. <https://portswigger.net/web-security/ssrf>
