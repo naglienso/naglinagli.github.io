@@ -110,7 +110,7 @@ s3_capital_one_breach.get_object( Bucket=’capitalone-bucket’, Key=’/tmp/�
  
  ![detection](/images/detection.jpg)
 
- - AWS should try and implement a protection like the one of Azure by making metadata requests go through with a speaicel header only, which cannot be controlled by the malicious actor.
+ - AWS should try and implement a protection like the one of Azure by making metadata requests go through with a special header only, which cannot be controlled by the malicious actor.
  
  - Monitoring / investigating suspicious and continious connections from TOR exit-nodes and known VPN providers, by implementing a rule to detect and alert when a specific malicious subnet is accessing the servers on different times and trying to find generic OWASP top 10 vulnerabilities (such as SSRF)
  
