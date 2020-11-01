@@ -109,6 +109,8 @@ s3_capital_one_breach.get_object( Bucket=’capitalone-bucket’, Key=’/tmp/�
  ### How could the attack be detected
  
  ![detection](/images/detection.jpg)
+
+ - AWS should try and implement a protection like the one of Azure by making metadata requests go through with a speaicel header only, which cannot be controlled by the malicious actor.
  
  - Monitoring / investigating suspicious and continious connections from TOR exit-nodes and known VPN providers, by implementing a rule to detect and alert when a specific malicious subnet is accessing the servers on different times and trying to find generic OWASP top 10 vulnerabilities (such as SSRF)
  
@@ -118,7 +120,7 @@ s3_capital_one_breach.get_object( Bucket=’capitalone-bucket’, Key=’/tmp/�
  
  - CapitalOne should have been going through their 3rd party programs and making sure they are being configured with the right settings (regarding the WAF misconfiguration), by making Black Box engagements before going live with a new product.
 
-- Deploying OSINT searches by AWS security center or CapitalOne incident response team once in a while could have gotten them to erratic twitter posts / slack group which would have provided indications of an attack being initiated in early stages by her.
+ - Deploying OSINT searches by AWS security center or CapitalOne incident response team once in a while could have gotten them to erratic twitter posts / slack group which would have provided indications of an attack being initiated in early stages by her.
  
 
 ![thanks](/images/thanks.jpg)
