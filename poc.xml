@@ -5,14 +5,7 @@
                 <a:script xmlns:a="http://www.w3.org/1999/xhtml">alert("XSS by nagli")</a:script>
                 <info>
                   <name>
-                    <value><![CDATA[<script>confirm(document.domain)</script>]]></value>
-                  </name>
-                    <description>
-                      <value>Hello</value>
-                    </description>
-                    <url>
-                      <value><h1>http://google.com</h1></value>
-    <title>Your HTML title</title>
+                    <title>Your HTML title</title>
     <htmlData><![CDATA[<html>
         <head>
             <script/>
@@ -23,7 +16,10 @@
         </html>
      ]]>
     </htmlData>
-                    </url>
+                  </name>
+                    <description>
+                      <value>Hello</value>
+                    </description>
                 </info>
         </body>
 </html>
