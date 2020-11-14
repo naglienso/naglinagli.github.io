@@ -1,0 +1,10 @@
+<mail>
+  <subject>Test</subject>
+  <body>
+    <![CDATA[
+      <html>
+        ...
+      </html>
+     ]]>
+  </body>
+</mail>
