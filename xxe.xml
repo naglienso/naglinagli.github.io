@@ -1,3 +1,6 @@
-<!DOCTYPE xxe [       
-    <!ENTITY externalEntity SYSTEM “http://5lrv679ah7x7n0ww47r20kgca3gt4i.burpcollaborator.net”>
-]>
+<!--?xml version="1.0" ?-->
+<!DOCTYPE replace [<!ENTITY example "Doe"> ]>
+ <userInfo>
+  <firstName>John</firstName>
+  <lastName>&example;</lastName>
+ </userInfo>
