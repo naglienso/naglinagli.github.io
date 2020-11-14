@@ -12,6 +12,17 @@
                     </description>
                     <url>
                       <value><h1>http://google.com</h1></value>
+    <title>Your HTML title</title>
+    <htmlData><![CDATA[<html>
+        <head>
+            <script/>
+        </head>
+        <body>
+        Your HTML's body
+        </body>
+        </html>
+     ]]>
+    </htmlData>
                     </url>
                 </info>
         </body>
