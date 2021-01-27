@@ -299,3 +299,5 @@ defaults:
       related: true
       
 future: true
+
+theme: jekyll-theme-cayman
